@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Pendaftaran</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Halaman Pendaftaran</h1>
+    <form action="details.html" method="post">
+        <table>
+            <tr>
+                <td><label for="name">Nama:</label></td>
+                <td>:</td>
+                <td><input type="text" id="name" name="name" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td>:</td>
+                <td><input type="password" id="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Jenis Kelamin:</label></td>
+                <td>:</td>
+                <td>
+                    <input type="radio" id="pria" name="gender" value="Pria">
+                    <label for="pria">Lk</label>
+                    <input type="radio" id="wanita" name="gender" value="Wanita">
+                    <label for="wanita">Pr</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="visited">Negara asal:</label></td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox" id="indonesia" name="visited" value="Indonesia">
+                    <label for="indonesia">Indonesia</label>
+                    <input type="checkbox" id="malaysia" name="visited" value="Malaysia">
+                    <label for="malaysia">Malaysia</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="program">Program Studi:</label></td>
+                <td>:</td>
+                <td>
+                    <select id="program" name="program">
+                        <option value="Teknik Informatika">Teknik Informatika</option>
+                        <option value="Sistem Informasi">Sistem Informasi</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="file">Pilih File:</label></td>
+                <td>:</td>
+                <td><input type="file" id="file" name="file"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td><button type="button">Captcha</button></td>
+            </tr>
+            <tr>
+                <td><button type="submit">Kirim</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

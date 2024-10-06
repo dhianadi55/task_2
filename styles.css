@@ -1,0 +1,53 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Form table styling */
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 60%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+/* Table rows and input styling */
+td {
+    padding: 10px;
+}
+
+input[type="text"], input[type="password"], select {
+    width: 98%;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button[type="button"] {
+    background-color: #95adb6;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Layout styling */
+h1 {
+    text-align: center;
+    color: #333;
+}
